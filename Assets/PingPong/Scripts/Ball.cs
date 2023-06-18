@@ -17,10 +17,6 @@ public class Ball : MonoBehaviour
         set
         {
             _direction = value;
-            //if(value.x != 0 && (value.y != 1 || value.y != -1)) 
-            //{
-            //    _direction = value;
-            //}
         }
     }
 
@@ -36,8 +32,6 @@ public class Ball : MonoBehaviour
 
     private void Initialize()
     {
-        //_speed = 2;
-
         InitializeDirection();
     }
 
